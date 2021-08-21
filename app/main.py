@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 
 # Flask Web Application
-app = Flask("Flask Application")
+app = Flask("main")
 
 # Navigation
 @app.route("/")
